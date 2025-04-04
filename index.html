@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multilingual Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 50px;
+        }
+        h1 {
+            color: #333;
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .menu-button {
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .indian { background-color: #ff9933; color: white; }
+        .arabic { background-color: #008000; color: white; }
+        .english { background-color: #0000ff; color: white; }
+        .pakistani { background-color: #ff0000; color: white; }
+        .menu-button:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bruno's Bar</h1>
+    <div class="button-container">
+        <a href="menu-hindi.html"><button class="menu-button indian">हिन्दी</button></a>
+        <a href="menu-arabic.html"><button class="menu-button arabic">العربية</button></a>
+        <a href="menu-english.html"><button class="menu-button english">English</button></a>
+        <a href="menu-pakistani.html"><button class="menu-button pakistani">اردو</button></a>
+    </div>
+</body>
+</html>
